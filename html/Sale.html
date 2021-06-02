@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 特價商品</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="wow fadeIn" data-wow-duration="3s">
+        <div class="nav-menu ">
+            <a href="../index.html" class="logo"></a>
+            <a href="#" class="fas fa-bars"></a>
+            <a href="#" class="fas fa-times"></a>
+            <div class="item">
+                <a href="../html/about.html">關於我們</a>
+                <a href="../html/news.html">新品上市</a>
+                <div class="dropdown">
+                    <a href="" class=" dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">全館商品</a>  
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="../html/coats.html">上衣</a>
+                      <a class="dropdown-item" href="../html/skirts.html">洋裝</a>
+                      <a class="dropdown-item" href="../html/jackets.html">外套</a>
+                      <a class="dropdown-item" href="../html/jeans.html">牛仔褲</a>
+                      <a class="dropdown-item" href="../html/accessories.html">配件</a>
+                    </div>
+                </div>
+                <a href="../html/Sale.html">特價商品</a>
+                <a href="../html/contact.html">聯絡我們</a>
+            </div>
+        </div>
+    </nav>
+    <div class="banner">
+        <picture>
+            <source media="(min-width:1024px )" srcset="../images/sale_images/s_image.jpg">
+            <source media="(max-width:480px )" srcset="../images/sale_images/p_image.jpg">
+            <img src="../images/sale_images/t_image.jpg" alt="contact" class="img-fluid">
+        </picture>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 about">
+                <h1 class="text-center">特價商品</h1>
+                <p class="card-body">
+                    為了慶祝Fashionable全新開幕，本商店有許多商品都有特價優惠，趕快把這個好消息告訴左鄰右舍，不管大朋友、小朋友都快來搶購，活動只有7天，趕快把握時間，添購自己喜歡的商品吧！
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-12 search">
+            <form class="search">
+                    <input type="text" class="form-control" id="input" placeholder="請輸入您要的商品" required onkeyup="search()">
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">上衣類</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container wow fadeIn" data-wow-duration="3s">
+        <div class="row about">
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/coat/sale1.jpg" data-fancybox="a" data-caption="史努比印花T恤">
+                    <img src="../images/sale_images/coat/sale1.jpg" alt="sale">
+                </a>
+                    <h6>史努比印花T恤</h6>
+                        <p class="price">
+                            <label class="pay">NT$299</label> 特價NT$209
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                 <a href="../images/sale_images/coat/sale5.jpg" data-fancybox="a" data-caption="快乾網眼印花polo衫">
+                    <img src="../images/sale_images/coat/sale5.jpg" alt="sale">
+                </a>        
+                    <h6>快乾網眼印花polo衫</h6>
+                        <p class="price">
+                            <label class="pay">NT$200</label> 特價NT$140
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/coat/sale2.jpg"  data-fancybox="a" data-caption="柔棉印花長袖襯衫">
+                    <img src="../images/sale_images/coat/sale2.jpg" alt="sale">
+                </a>
+                    <h6>柔棉印花長袖襯衫</h6>
+                        <p class="price">
+                            <label class="pay">NT$350</label> 特價NT$245
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/coat/sale6.jpg"  data-fancybox="a" data-caption="刷毛印花圓領衫">
+                    <img src="../images/sale_images/coat/sale6.jpg" alt="sale">
+                </a>
+                    <h6>刷毛印花圓領衫</h6>
+                        <p class="price">
+                            <label class="pay">NT$390</label> 特價NT$273
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/coat/sale3.jpg"  data-fancybox="a" data-caption="STAR WARS刷毛連帽衫">
+                    <img src="../images/sale_images/coat/sale3.jpg" alt="sale">
+                </a>
+                    <h6>STAR WARS刷毛連帽衫</h6>
+                        <p class="price">
+                            <label class="pay">NT$400</label> 特價NT$280
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/coat/sale7.jpg"  data-fancybox="a" data-caption="牛仔雙口袋襯衫">
+                    <img src="../images/sale_images/coat/sale7.jpg" alt="sale">
+                </a>
+                    <h6>牛仔雙口袋襯衫</h6>
+                        <p class="price">
+                            <label class="pay">NT$480</label> 特價NT$329
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/coat/sale4.jpg"  data-fancybox="a" data-caption="迪士尼條紋印花長袖T恤">
+                    <img src="../images/sale_images/coat/sale4.jpg" alt="sale">
+                </a>
+                    <h6>迪士尼條紋印花長袖T恤</h6>
+                        <p class="price">
+                            <label class="pay">NT$500</label> 特價NT$350
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/coat/sale8.jpg"  data-fancybox="a" data-caption="羅紋圓領針織衫">
+                    <img src="../images/sale_images/coat/sale8.jpg" alt="sale">
+                </a>
+                    <h6>羅紋圓領針織衫</h6>
+                        <p class="price">
+                            <label class="pay">NT$550</label> 特價NT$385
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">裙子類</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container wow fadeIn" data-wow-duration="3s">
+        <div class="row about">
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/skirt/skirt1.jpg"  data-fancybox="b" data-caption="鬆緊腰排釦抓皺魚尾裙">
+                    <img src="../images/sale_images/skirt/skirt1.jpg" alt="sale">
+                </a>
+                    <h6>鬆緊腰排釦抓皺魚尾裙</h6>
+                        <p class="price">
+                            <label class="pay">NT$800</label> 特價NT$560
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/skirt/skirt2.jpg"  data-fancybox="b" data-caption="質感毛邊前開衩牛仔長裙">
+                    <img src="../images/sale_images/skirt/skirt2.jpg" alt="sale">
+                </a>
+                    <h6>質感毛邊前開衩牛仔長裙</h6>
+                        <p class="price">
+                            <label class="pay">NT$1200</label> 特價NT$840
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/skirt/skirt3.jpg"  data-fancybox="b" data-caption="附腰包溫暖格紋接片短裙">
+                    <img src="../images/sale_images/skirt/skirt3.jpg" alt="sale">
+                </a>
+                    <h6>附腰包溫暖格紋接片短裙</h6>
+                        <p class="price">
+                            <label class="pay">NT$380</label> 特價NT$266
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/skirt/skirt4.jpg"  data-fancybox="b" data-caption="附腰帶不對稱後拉鍊短裙">
+                    <img src="../images/sale_images/skirt/skirt4.jpg" alt="sale">
+                </a>
+                    <h6>附腰帶不對稱後拉鍊短裙</h6>
+                        <p class="price">
+                            <label class="pay">NT$580</label> 特價NT$406
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">外套類</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container wow fadeIn" data-wow-duration="3s">
+        <div class="row about">
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jacket/jacket1.jpg"  data-fancybox="c" data-caption="高含棉滿版花朵磨毛連帽外套">
+                    <img src="../images/sale_images/jacket/jacket1.jpg" alt="sale">
+                </a>
+                    <h6>高含棉滿版花朵磨毛連帽外套</h6>
+                        <p class="price">
+                            <label class="pay">NT$900</label> 特價NT$630
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jacket/jacket2.jpg"  data-fancybox="c" data-caption="圓領排釦羅紋拼接純色棉感外套">
+                    <img src="../images/sale_images/jacket/jacket2.jpg" alt="sale">
+                </a>
+                    <h6>圓領排釦羅紋拼接純色棉感外套</h6>
+                        <p class="price">
+                            <label class="pay">NT$1000</label> 特價NT$700
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jacket/jacket3.jpg"  data-fancybox="c" data-caption="袖口拼接羅紋雙排釦外套">
+                    <img src="../images/sale_images/jacket/jacket3.jpg" alt="sale">
+                </a>
+                    <h6>袖口拼接羅紋雙排釦外套</h6>
+                        <p class="price">
+                            <label class="pay">NT$1500</label> 特價NT$1050
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jacket/jacket4.jpg"  data-fancybox="c" data-caption="混羊毛雙排釦質感保暖長版大衣">
+                    <img src="../images/sale_images/jacket/jacket4.jpg" alt="sale">
+                </a>
+                    <h6>混羊毛雙排釦質感保暖長版大衣</h6>
+                        <p class="price">
+                            <label class="pay">NT$920</label> 特價NT$640
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">牛仔褲</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container wow fadeIn" data-wow-duration="3s">
+        <div class="row about">
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jeans/jeans1.jpg"  data-fancybox="d" data-caption="微刷破韓版丹寧修身牛仔褲">
+                    <img src="../images/sale_images/jeans/jeans1.jpg" alt="sale">
+                </a>
+                    <h6>微刷破韓版丹寧修身牛仔褲</h6>
+                        <p class="price">
+                            <label class="pay">NT$500</label> 特價NT$350
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">      
+                <a href="../images/sale_images/jeans/jeans2.jpg"  data-fancybox="d" data-caption="素面合身老爺褲單寧褲">
+                    <img src="../images/sale_images/jeans/jeans2.jpg" alt="sale">
+                </a>
+                    <h6>素面合身老爺褲單寧褲</h6>
+                        <p class="price">
+                            <label class="pay">NT$550</label> 特價NT$385
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jeans/jeans3.jpg"  data-fancybox="d" data-caption="韓版破壞抽鬚單寧褲">
+                    <img src="../images/sale_images/jeans/jeans3.jpg" alt="sale">
+                </a>
+                    <h6>韓版破壞抽鬚單寧褲</h6>
+                        <p class="price">
+                            <label class="pay">NT$650</label> 特價NT$455
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jeans/jeans4.jpg"  data-fancybox="d" data-caption="率性反摺寬褲">
+                    <img src="../images/sale_images/jeans/jeans4.jpg" alt="sale">
+                </a>
+                    <h6>率性反摺寬褲</h6>
+                        <p class="price">
+                            <label class="pay">NT$1050</label> 特價NT$735
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jeans/jeans5.jpg"  data-fancybox="d" data-caption="彈性雙膝刷破直筒牛仔褲">
+                    <img src="../images/sale_images/jeans/jeans5.jpg" alt="sale">
+                </a>
+                    <h6>彈性雙膝刷破直筒牛仔褲</h6>
+                        <p class="price">
+                            <label class="pay">NT$1080</label> 特價NT$756
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jeans/jeans6.jpg"  data-fancybox="d" data-caption="個性拉環標籤素面彈性長褲">
+                    <img src="../images/sale_images/jeans/jeans6.jpg" alt="sale">
+                </a>
+                    <h6>個性拉環標籤素面彈性長褲</h6>
+                        <p class="price">
+                            <label class="pay">NT$990</label> 特價NT$693
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jeans/jeans7.jpg"  data-fancybox="d" data-caption="休閒單寧抓破水洗煙管褲">
+                    <img src="../images/sale_images/jeans/jeans7.jpg" alt="sale">
+                </a>
+                    <h6>休閒單寧抓破水洗煙管褲</h6>
+                        <p class="price">
+                            <label class="pay">NT$880</label> 特價NT$616
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/jeans/jeans8.jpg"  data-fancybox="d" data-caption="個性單寧哈倫褲">
+                    <img src="../images/sale_images/jeans/jeans8.jpg" alt="sale">
+                </a>
+                    <h6>個性單寧哈倫褲</h6>
+                        <p class="price">
+                            <label class="pay">NT$888</label> 特價NT$622
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">配件</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container wow fadeIn" data-wow-duration="3s">
+        <div class="row about">
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/accessories/accessories1.jpg"  data-fancybox="e" data-caption="夏日搶眼造型墨鏡">
+                    <img src="../images/sale_images/accessories/accessories1.jpg" alt="sale">
+                </a>
+                    <h6>夏日搶眼造型墨鏡</h6>
+                        <p class="price">
+                            <label class="pay">NT$690</label> 特價NT$483
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/accessories/accessories2.jpg"  data-fancybox="e" data-caption="小姐姐的羊毛紳士帽">
+                    <img src="../images/sale_images/accessories/accessories2.jpg" alt="sale">
+                </a>
+                    <h6>小姐姐的羊毛紳士帽</h6>
+                        <p class="price">
+                            <label class="pay">NT$580</label> 特價NT$406
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/accessories/accessories3.jpg"  data-fancybox="e" data-caption="RICO莉可兔法蘭絨連帽小蓋毯">
+                    <img src="../images/sale_images/accessories/accessories3.jpg" alt="sale">
+                </a>
+                    <h6>RICO莉可兔法蘭絨連帽小蓋毯</h6>
+                        <p class="price">
+                            <label class="pay">NT$780</label> 特價NT$546
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 sale">
+                <a href="../images/sale_images/accessories/accessories4.jpg"  data-fancybox="e" data-caption="簡約多層側背小方包">
+                    <img src="../images/sale_images/accessories/accessories4.jpg" alt="sale">
+                </a>
+                    <h6>簡約多層側背小方包</h6>
+                        <p class="price">
+                            <label class="pay">NT$720</label> 特價NT$504
+                                <select>
+                                    <option>數量</option>
+                                    <option>1件</option>
+                                    <option>2件</option>
+                                    <option>3件</option>
+                                    <option>4件</option>
+                                    <option>5件</option>
+                                </select>
+                        </p>
+            </div>
+        </div>
+    </div>
+    <footer class=" wow fadeIn" data-wow-duration="3s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <P><i class="fas fa-phone-volume"></i>.連絡電話 : 04-2657-4485<br>( 平日 早上8:00 ~ 晚上10:00 、假日休息 )</P>
+                    <p><i class="fas fa-phone"></i>.客服電話 : 0800-457-453<br>( 平日 9:00 ~ 18:00、假日 10:00 ~ 20:00 )</p>
+                    <p><i class="fas fa-envelope-open-text"></i>.聯絡信箱 : abc489@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i>.聯絡地址 : 台中市北區三民路三段52-3號</p> 
+                </div>
+                <div class="col-md-6">
+                    <p>copyright &copy;2020<br>Design By Yang</p> 
+                    <p>本網頁為作品展示．虛擬商店．並無商業行為．特此聲明</p>
+                    <p>本網站所有圖片乃搜集自網路．版權屬原作者所有。</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <a href="#" class="fas fa-arrow-alt-circle-up fa-2x" id="gotop"></a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../js/Fashionable.js"></script>
+</body>
+</html>
